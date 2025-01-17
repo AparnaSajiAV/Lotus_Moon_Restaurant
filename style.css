@@ -1,0 +1,149 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Chakra Petch", serif;
+}
+.container-fluid{
+    width: 100%;
+}
+/* navbar */
+#nav-bar {
+    background-color: black; 
+    color: white; 
+    font-weight: 500;
+}
+#nav-bar img {
+    width: 6%;
+}
+.navbar-heading {
+    font-weight: 600; 
+    color: goldenrod; 
+    margin-left: 10px; 
+    margin-right: 400px;
+}
+.navbar .nav-link{
+    color: white !important; /* Set font color to white */
+}
+.navbar .dropdown-item:hover {
+    background-color: goldenrod; /* Highlight background on hover */
+}
+/* slides */
+#carouselControls img{
+    height: 550px;
+    margin-bottom: 20px;
+}
+/* home */
+.heading{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color: #A35C7A;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 40px;
+    height: 500px;
+    align-items: center;
+}
+.body-frame1{
+    padding: 10px;
+    width: 100%;
+}
+.body-frame1 h5{
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: #4CAF50;
+}
+.body-frame1 p{
+    text-indent: 50px;
+}
+.body-frame2 img{
+    width: 100%;
+}
+/* menu */
+#maincoures .card-text{
+    text-indent: 50px;
+}
+#maincoures img{
+    height: 250px;
+}
+/* desserts */
+#desserts img{
+    height: 250px;
+}
+/* beverages */
+#beverages img{
+    height: 250px;
+}
+/* vegan */
+#vegan img{
+    height: 250px;
+}
+/* footer */
+#footer{
+    margin: 3rem;
+}
+#pstyle{
+    text-align: center;
+    font-weight: 600;
+}
+/* contact  */
+.body-frame1 label{
+    margin-left: 30px;
+    align-items: center;
+    text-align: center;
+}
+.icon-set{
+    /* to display in one line */
+    display: flex;
+    margin-top: 1%;
+    margin-left: 70px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 2%;
+}
+.icon i{
+    font-size: 30px;
+    color: black;
+}
+.icon:hover{
+    background-image: linear-gradient(to left,yellow,red);
+    color: white;
+    animation: shake 0.75s;
+}
+@keyframes shake {
+    10%{transform: rotate(15deg);}
+    20%{transform: rotate(-15deg);}
+    30%{transform: rotate(15deg);}
+    40%{transform: rotate(-15deg);}
+}
+.body-frame2 form{
+    text-align: center;
+}
+.contact-container input,.contact-container textarea,.contact-container button {
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact-container input:focus,.contact-container textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+.contact-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.contact-container button:hover {
+    background-color: #0056b3;
+}
